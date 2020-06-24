@@ -1,11 +1,17 @@
 # challenge
+
+
+
 class Point:
+
     def __init__(self, x, y):
+    
         self.x = x
         self.y = y
 
 
 def onSegment(p, q, r):
+
     if ((q.x <= max(p.x, r.x)) and (q.x >= min(p.x, r.x)) and
             (q.y <= max(p.y, r.y)) and (q.y >= min(p.y, r.y))):
         return True
